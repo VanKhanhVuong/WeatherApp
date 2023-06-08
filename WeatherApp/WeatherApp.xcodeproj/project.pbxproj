@@ -16,6 +16,8 @@
 		66DB13A52A31C4EB00DCA131 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB13A42A31C4EB00DCA131 /* WeatherAppTests.swift */; };
 		66DB13AF2A31C4EB00DCA131 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB13AE2A31C4EB00DCA131 /* WeatherAppUITests.swift */; };
 		66DB13B12A31C4EB00DCA131 /* WeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB13B02A31C4EB00DCA131 /* WeatherAppUITestsLaunchTests.swift */; };
+		66DB13C72A31C72100DCA131 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB13C62A31C72100DCA131 /* Forecast.swift */; };
+		66DB13CC2A31CBBB00DCA131 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB13CB2A31CBBB00DCA131 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		66DB13AA2A31C4EB00DCA131 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DB13AE2A31C4EB00DCA131 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		66DB13B02A31C4EB00DCA131 /* WeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66DB13C62A31C72100DCA131 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		66DB13CB2A31CBBB00DCA131 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 		66DB13C22A31C5B600DCA131 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				66DB13CA2A31CBA500DCA131 /* APIService */,
+				66DB13C52A31C6D800DCA131 /* Model */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -189,6 +195,22 @@
 				66DB13982A31C4EB00DCA131 /* LaunchScreen.storyboard */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		66DB13C52A31C6D800DCA131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66DB13C62A31C72100DCA131 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66DB13CA2A31CBA500DCA131 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				66DB13CB2A31CBBB00DCA131 /* APIService.swift */,
+			);
+			path = APIService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DB13C72A31C72100DCA131 /* Forecast.swift in Sources */,
+				66DB13CC2A31CBBB00DCA131 /* APIService.swift in Sources */,
 				66DB13922A31C4EA00DCA131 /* ViewController.swift in Sources */,
 				66DB138E2A31C4EA00DCA131 /* AppDelegate.swift in Sources */,
 				66DB13902A31C4EA00DCA131 /* SceneDelegate.swift in Sources */,
